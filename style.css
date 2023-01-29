@@ -1,15 +1,16 @@
 /*Styles*/
 
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 .square {
-  background-color: #33cc33;
+  background-color: #155263;
+  border-radius: 10px;
   height: 400px;
-  width: 400px;
+  width: 425px;
   position: relative;
-  top: 70px;
+  top: 100px;
   left: 35%;
 }
 
@@ -19,17 +20,22 @@ body {
   left: 20px;
   top: 25px;
   height: 20px;
+
 }
 
 .display input {
-  border-style: none!important;
+  border-radius: 10px;
+  border-style: none !important;
   position: relative;
   left: 90px;
   top: 2px;
   height: 70px;
-  background-color: #b3ffb3;
+  background-color: #ff9a3c;
+  font-family: "Quantico";
   font-size: 21px;
-  text-align: right;
+  color: white;
+  text-align: center;
+
 }
 
 .keys {
@@ -37,8 +43,9 @@ body {
   top: 20px;
 }
 
-.button.green {
-  background-color: #6fdc6f;
+.button {
+  border-radius: 10px;
+  background-color: #ff6f3c;
   color: white;
   font-size: 40px;
   font-family: 'Orbitron', sans-serif;
@@ -48,6 +55,8 @@ body {
   margin-left: 12px;
   cursor: pointer;
 }
+
+
 
 p {
   line-height: 30px;
